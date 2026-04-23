@@ -10,7 +10,7 @@ reader = easyocr.Reader(['en'], gpu=False)
 # -----------------------------
 # OPEN VIDEO
 # -----------------------------
-cap = cv2.VideoCapture("video/pic_2.mp4")
+cap = cv2.VideoCapture("video/f00494_clean.mp4")
 
 fps = int(cap.get(cv2.CAP_PROP_FPS))
 frame_id = 0
